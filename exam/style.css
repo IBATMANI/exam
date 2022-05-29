@@ -9,20 +9,28 @@ img {
     width: 425px;
     height: 200px;
     padding: 10px;
+    margin: 10px;
 
 }
 
 img:hover{
     cursor: pointer;
     opacity: 0.5;
-    transition: 0.9s;
+    transition: 1s;
 
 }
 
 .flex-container{
     display: flex;
-    max-width: 1200px;
     width: 100%;
+    max-width: 425px;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (min-width: 425px) {
+    .flex-container {
+        flex:100%;
+    }
 }
