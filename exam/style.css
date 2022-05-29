@@ -24,7 +24,7 @@ img:hover{
 .flex-container{
     display: flex;
     width: 100%;
-    max-width: 100%fit-content;
+    max-width: 425px;
     flex-wrap: wrap;
     justify-content: center;
     padding: 0px;
@@ -32,8 +32,8 @@ img:hover{
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
-@media only screen and (min-width: 758px) {
+@media (min-width: 758px) {
     .flex-container {
-        flex: basis 50;%;
+        flex: basis 50%;
     }
 }
