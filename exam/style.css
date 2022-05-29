@@ -5,6 +5,8 @@ body {
     background-color: #292979;
   }
 
+
+
 img {
     width: 95%;
     height: 100%;
@@ -24,6 +26,6 @@ img:hover{
     max-width: 1600px;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: space-evenly;
+    align-content: space-around;
 }
 
