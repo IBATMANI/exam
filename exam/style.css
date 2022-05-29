@@ -19,8 +19,7 @@ body {
 .flex-item-1 {
     background-color: #00006f;
     padding: 10px;
-    flex: 100%;
-    
+    flex: 100%; 
 }
 
 .flex-item-2 {
@@ -30,19 +29,6 @@ body {
     
 }
 
-.flex-item-3 {
-    background-color: #00006f;
-    padding: 10px;
-    flex: 100%;
-    
-}
-
-.flex-item-4 {
-    background-color: #00006f;
-    padding: 10px;
-    flex: 100%;
-    
-}
 
 
 
