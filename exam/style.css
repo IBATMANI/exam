@@ -2,7 +2,7 @@
 /*CSS Document*/
 
 body {
-    background-color: #1b1b44;
+    background-color: #dadada;
     padding: 0px;
     margin: 0px;
   }
@@ -15,21 +15,33 @@ body {
   height: 100%;
   max-width: 100px;
   max-height: 100px;
-  background: rgb(224, 225, 239);
+  background: #dadada;
+  padding: 1px;
+  margin:0px;
 }
 
-.header h1 {
-  position: relative;
-  text-align: right;
-  display: block;
-  color: antiquewhite;
-}
 .header  {
     padding: 40px;
     max-height: 100px;
     text-align: right;
-    background: #7e7e82;
+    background: #080a41;
   }
+
+.btn {
+    border: 1px;
+    background-color: inherit;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {background: #7A7E86;}
+.success {color: #DFE3EA;}
+.info {color: #DFE3EA;}
+.warning {color: #DFE3EA;}
+.danger {color: #DFE3EA;}
 
 img {
     width: 95%;
