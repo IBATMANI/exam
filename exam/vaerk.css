@@ -42,3 +42,29 @@ body {
 .info {color: #DFE3EA;}
 .warning {color: #DFE3EA;}
 .danger {color: #DFE3EA;}
+
+img {
+  width: 300px;
+  height: 357px;
+  padding: 1%;
+  margin: 1%;
+}
+
+.flex-container{
+  display: flex;
+  width: 100%;
+  max-width: 1600px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.flex-container p {
+  display: flex;
+  width: 300px;
+  position: relative;
+  max-width: 1600px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
