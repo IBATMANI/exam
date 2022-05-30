@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/*CSS Document*/
+
+body {
+    background-color: #dadada;
+    padding: 0px;
+    margin: 0px;
+  }
+
+.header img {
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  width: 100%;
+  height: 100%;
+  max-width: 100px;
+  max-height: 100px;
+  background: #dadada;
+  padding: 1px;
+  margin:0px;
+}
+
+.header  {
+    padding: 40px;
+    max-height: 100px;
+    text-align: right;
+    background: #080a41;
+  }
+
+.btn {
+    border: 1px;
+    background-color: inherit;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {background: #7A7E86;}
+.success {color: #DFE3EA;}
+.info {color: #DFE3EA;}
+.warning {color: #DFE3EA;}
+.danger {color: #DFE3EA;}
